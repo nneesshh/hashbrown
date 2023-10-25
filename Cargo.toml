@@ -37,7 +37,7 @@ equivalent = { version = "1", optional = true, default-features = false }
 
 [dev-dependencies]
 lazy_static = "1"
-rand = { version = "0.8", features = ["small_rng"] }
+rand = { path = "../rand", features = ["small_rng"] }
 rayon = "1"
 fnv = "1"
 serde_test = "1"
